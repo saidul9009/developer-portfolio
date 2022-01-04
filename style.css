@@ -18,6 +18,8 @@ h2{
 }
 p{
   color:#666;
+  text-align:justify;
+
 }
 /* ====================
       first_banner 
@@ -27,7 +29,7 @@ background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 }
 span{
-  color:orange;
+  color:orangered;
 }
 .half_width{
   width:40%;
@@ -57,3 +59,35 @@ span{
 /* ====================================
         experience_area
 ====================================*/
+.experience_area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience_area h3{
+  color:orangered;
+}
+.exprience{
+  box-shadow:5px 8px 40px gray;
+  height:75%;
+  padding:10px;
+  border-radius:5px;
+ 
+}
+#full_developer{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(5, 224, 253),blue);
+  border-image-slice: 1;
+
+}
+#baby_developer{
+  border-left: 7px solid;
+  border-image:linear-gradient(orangered,orange);
+  border-image-slice:1;
+}
+/* ================================
+        footer
+===============================*/
+footer p{
+  text-align:center;
+}
